@@ -1,0 +1,19 @@
+.activeEventOption , .activeEventOption2{
+	background-color: #939292;
+    color: #f8f8f8;
+}
+.bidBoxMatch{
+	display: none;
+	position: fixed;
+	bottom: 20%;
+	left: 20%;
+	background-color: black;
+	color: white;
+}
+tbody{
+	color: #f1c41e;
+    background: white;
+}
+.table{
+	margin-bottom: 0px;
+}

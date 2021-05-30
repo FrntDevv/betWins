@@ -1,0 +1,6 @@
+{
+    "require": {
+        "pusher/pusher-php-server": "^3.4",
+        "dusterio/link-preview": "^1.2"
+    }
+}

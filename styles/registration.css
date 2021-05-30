@@ -1,0 +1,26 @@
+.registerBlock {
+  background-color: #d9d9d9;
+  color: white;
+  padding: 5rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  margin: 0.2rem;
+}
+.registerBlock a {
+  text-decoration: none;
+}
+.mainBlock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.bgImg {
+  background-image: url('../images/banner-register.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 100vh;
+  max-width: 100%;
+}

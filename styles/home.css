@@ -1,0 +1,173 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+body {
+  height: 100%;
+  font-family: 'Muli', sans-serif;
+  /*background-image: linear-gradient(to left top, #0ffd60, #00fb6d, #00f979, #00f684, #00f48e);*/
+  /*background-image: linear-gradient(to left top, #fd740f, #fb6304, #f95000, #f73800, #f40b00);*/
+  background-image: linear-gradient(to left bottom, #66878a, #5b9a9a, #4eada6, #41bfad, #3ad2af, #39d4ae, #38d7ae, #38d9ad, #35ccac, #37bea9, #3db1a4, #45a39d);
+}
+.hero_image{
+  background-image: url('../images/bannerImage.jpg');
+  background-position:0 -40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  max-width: 100%;
+  margin-top:55px;
+  position: relative;
+}
+.mainContentDiv{
+  background-color: #0f0c0666;
+  opacity: 0.8;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(5 2 2 / 65%);
+  z-index: 1;
+  opacity: 0.5;
+}
+a{
+  color:white;
+}
+.playerNames{
+  width: 600px;
+}
+td{
+  font-size: 0.9rem;
+}
+.activeEventOption{
+      background-color: #939292;
+      color: #f8f8f8;
+}
+.bidBox{
+  display: none;
+  background: linear-gradient(45deg, #151515, #000000f2);
+  border-radius: 0.6rem;
+  color: white;
+}
+.betSelectorModel{
+  width: 31rem;
+  position: fixed;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+.selectedPlayer{
+  border: 1px solid black;
+  border-radius: 23px;
+  color: white;
+  background-color: green;
+  padding: 1px;
+}
+.contest{
+  padding: 0;
+  background: #f1eeee;
+  color: #726b1d;
+}
+.playerName{
+  border:1px solid red;
+}
+.hideShowBlock1{
+  cursor: pointer;
+}
+.foodTxtOveflow {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.foodBtn {
+  color: white;
+  background-color: #7c140c;
+  /* border-radius: 0; */
+}
+.foodBtns {
+  background-color: #08d93f;
+  color: white;
+  text-decoration: none;
+}
+
+.foodBtns:hover {
+  background-color: #08d93f;
+  color: white;
+  box-shadow: 0 2px 2px 0 #26d945;
+}
+.foodBtn:hover {
+  background-color: #2e063d;
+  box-shadow: 0 2px 2px 0 #45055c;
+}
+
+.custom_nav_link.nav-link {
+  color: black !important;
+  display: block;
+  padding: 2rem 1rem;
+}
+.bloodBankHeader {
+  background-color: #000000f7;
+  color: white;
+  opacity: 0.7;
+  box-shadow: 1px 1px 3px 0px #a0a0a0;
+}
+.userRegistration {
+  height: 50vh;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.selectedPlayer {
+  display: none;
+  background-color: #e6e6e6;
+  border: 1px solid #b5b5b5;
+  color: #168f52 !important;
+  box-shadow: 2px 2px 10px -6px #b4b4b4;
+}
+.checkedMark{
+  background-color: #e6e6e6;
+  border: 1px solid #b5b5b5;
+  color: #168f52 !important;
+  box-shadow: 2px 2px 10px -6px #b4b4b4;
+}
+div a:hover {
+  text-decoration: none;
+}
+.content span {
+  margin: 0px 0px 10px 20px;
+}
+.blood_group_name{
+  display:flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 6rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: #362020f5;
+  border: 1px solid gray;
+}
+.hospital_name {
+    text-transform: capitalize;
+    cursor: pointer;
+    height: 70px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 330px;
+    color: blue;
+    /* border: 1px solid darkslategray; */
+}
+.quantity_required{
+  position: absolute;
+    top: 8px;
+    right: 8px;
+    background: linear-gradient(
+45deg
+, #a70707, #000000d6);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
